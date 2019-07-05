@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+body {
+  background: white;
+  color: #333;
+  text-align: center; }
+
+section {
+  width: 100%; }
+
+img {
+  margin: 0 auto; }
+
+.width30 {
+  width: 10%; }
+
+button {
+  width: 160px;
+  background: none;
+  border-radius: 20px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #a64632;
+  color: #a64632;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+  margin: 1rem; }
+
+button:hover {
+  color: #f8f8f8;
+  background: #a64632;
+  border: 1px solid #f8f8f8; }
+
+button:active {
+  transform: scale(0.95); }
+
+p {
+  margin: 1rem 0;
+  padding: 0;
+  text-align: center;
+  font-family: "noto";
+  font-size: 1.2rem; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0; }
+
+h1 {
+  font-size: 5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 1.2rem; }
+
+hr {
+  width: 500px;
+  background: none; }
+
+.navigation {
+  height: 90px;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 2px 2px 5px #4ab57b; }
+
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 90px; }
+  .brand h3 {
+    font-size: 3rem; }
+
+.nav-container {
+  max-width: 1500px;
+  margin: 0 auto; }
+
+.nav-list-container {
+  float: right;
+  font-size: 1.2rem;
+  font-weight: bold; }
+  .nav-list-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+    z-index: 20; }
+    .nav-list-container ul li {
+      float: left; }
+      .nav-list-container ul li a,
+      .nav-list-container ul li a:visited {
+        display: block;
+        padding: 1rem 1rem 0 0.5rem;
+        margin: 0 0.5rem;
+        line-height: 60px;
+        background: transparent;
+        text-decoration: none;
+        transition: all 0.4s; }
+        .nav-list-container ul li a:hover,
+        .nav-list-container ul li a:visited:hover {
+          color: #4ab57b;
+          transform: scale(1.05); }
+
+.active {
+  color: #4ab57b !important; }
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  background: transparent;
+  height: 90px;
+  width: 90px; }
+
+#main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  height: 100%;
+  background: none;
+  margin: 0 auto; }
+
+#showcase {
+  width: 100%;
+  position: relative;
+  background: url("../images/a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 90px;
+  box-sizing: border-box; }
+  #showcase .primary-overlay {
+    background: rgba(74, 181, 123, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #showcase .container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    text-align: center; }
+  #showcase h1 {
+    padding: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px; }
+  #showcase h3 {
+    width: 80%;
+    padding: 2rem;
+    font-weight: 400;
+    font-family: "noto";
+    font-style: italic; }
+
+#portfolio,
+#skills,
+#education,
+#experience {
+  text-transform: uppercase;
+  background: #e8e8e8;
+  height: 250px;
+  color: #333; }
+  #portfolio .container,
+  #skills .container,
+  #education .container,
+  #experience .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #portfolio h2,
+  #skills h2,
+  #education h2,
+  #experience h2 {
+    font-size: 2rem; }
+  #portfolio p,
+  #skills p,
+  #education p,
+  #experience p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 1.5rem; }
+
+#kitchenCatalogue,
+#colorPickerApp {
+  width: 100;
+  background: white;
+  padding-bottom: 2rem; }
+  #kitchenCatalogue .container,
+  #colorPickerApp .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #kitchenCatalogue h3,
+  #colorPickerApp h3 {
+    padding: 2rem; }
+  #kitchenCatalogue p,
+  #colorPickerApp p {
+    margin: 1rem 0; }
+  #kitchenCatalogue img,
+  #colorPickerApp img {
+    width: 100%; }
+
+#skillsItem {
+  padding: 2rem 0;
+  box-sizing: border-box;
+  background: white; }
+  #skillsItem h3 {
+    padding: 2rem 0;
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box; }
+  #skillsItem .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #skillsItem .skillRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem 0; }
+  #skillsItem .skillItem {
+    width: 15%;
+    margin: 0 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+  #skillsItem img {
+    max-height: 100px;
+    max-width: 150px; }
+
+#educationItem {
+  background: white;
+  padding: 4rem 0 3rem 0; }
+  #educationItem .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #educationItem .container .educationItem {
+      width: 80%;
+      margin: 1rem; }
+      #educationItem .container .educationItem h4 {
+        margin-top: 0.5rem; }
+
+#experienceItem {
+  padding: 4rem 0 3rem 0;
+  background: white; }
+  #experienceItem .experienceItem {
+    padding: 1rem 0; }
+  #experienceItem h4 {
+    margin: 0.5rem 0 0rem 0;
+    font-size: 1.2rem; }
+  #experienceItem p {
+    margin-top: 2rem; }
+  #experienceItem ul {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: "noto"; }
+    #experienceItem ul li {
+      padding: 0.5rem 0; }
+    #experienceItem ul li:first-of-type {
+      list-style: none;
+      font-weight: bold; }
+
+#aboutme {
+  width: 100%;
+  position: relative;
+  background: url("../images/montage2.jpg");
+  background-position: center;
+  height: 640px;
+  padding-top: 90px;
+  box-sizing: border-box;
+  background-repeat: none; }
+  #aboutme .primary-overlay {
+    background: rgba(166, 70, 50, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #aboutme .container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    text-align: center; }
+  #aboutme h1 {
+    padding: 2rem;
+    text-transform: uppercase; }
+  #aboutme h3 {
+    width: 80%;
+    padding: 2rem;
+    font-weight: 400;
+    font-family: "noto";
+    font-style: italic; }
+
+#contact {
+  padding: 4rem 0;
+  background: #333;
+  color: #f8f8f8; }
+  #contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #contact .container h2 {
+      padding-bottom: 2rem; }
+    #contact .container .contactItem {
+      width: 300px;
+      display: flex;
+      align-items: flex-start; }
+      #contact .container .contactItem a {
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        margin: auto 0;
+        transition: all 0.2s ease-in-out; }
+      #contact .container .contactItem a:hover {
+        color: #4ab57b; }
+  #contact img {
+    max-height: 40px; }
+
+@media only screen and (max-width: 480px) {
+  #showcase h1 {
+    font-size: 3rem; }
+
+  #skillsItem h3 {
+    padding-bottom: 1rem; }
+  #skillsItem .skillRow {
+    flex-wrap: wrap; }
+    #skillsItem .skillRow .skillItem {
+      width: 30%;
+      margin: 1rem; }
+      #skillsItem .skillRow .skillItem img {
+        max-width: 150px; } }
+@media only screen and (max-width: 850px) {
+  hr {
+    width: 80%; }
+
+  #skillsItem h3 {
+    padding-bottom: 1rem; }
+  #skillsItem .skillRow {
+    flex-wrap: wrap; }
+    #skillsItem .skillRow .skillItem {
+      width: 30%;
+      margin: 1rem; }
+      #skillsItem .skillRow .skillItem img {
+        max-width: 150px; }
+
+  .container {
+    width: 90%; }
+
+  .nav-mobile {
+    display: block; }
+
+  .nav-list-container {
+    width: 100%;
+    padding-top: 90px; }
+    .nav-list-container ul {
+      display: none;
+      text-align: center;
+      opacity: 1 !important;
+      box-shadow: 0 4px 5px -2px #4ab57b; }
+      .nav-list-container ul li {
+        float: none; }
+        .nav-list-container ul li a {
+          padding: 1rem;
+          margin: 0;
+          line-height: 20px; }
+          .nav-list-container ul li a:hover {
+            background: #4ab57b;
+            color: white !important; }
+        .nav-list-container ul li ul li a {
+          padding-left: 30px; }
+
+  .nav-dropdown {
+    position: static; } }
+@media screen and (min-width: 851px) {
+  .nav-list {
+    display: block !important; } }
+#nav-toggle.nav-toggle-scroll span,
+#nav-toggle.nav-toggle-scroll span:before,
+#nav-toggle.nav-toggle-scroll span:after {
+  background: #333; }
+
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 32px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px; }
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #333;
+    position: absolute;
+    display: block;
+    content: "";
+    transition: all 300ms ease-in-out; }
+  #nav-toggle span:before {
+    top: -10px; }
+  #nav-toggle span:after {
+    bottom: -10px; }
+  #nav-toggle.active span {
+    background-color: transparent; }
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+      top: 0; }
+    #nav-toggle.active span:before {
+      transform: rotate(45deg); }
+    #nav-toggle.active span:after {
+      transform: rotate(-45deg); }
