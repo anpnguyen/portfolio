@@ -1,1 +1,1 @@
-<?php header( 'Location: /index.html' ) ;  ?>git
+<?php header( 'Location: /index.html' ) ;  ?>

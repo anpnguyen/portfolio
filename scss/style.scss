@@ -1,6 +1,6 @@
 // Navigation Variables
 $content-width: 1500px;
-$breakpoint: 851px;
+$breakpoint: 1051px;
 $nav-height: 90px;
 $nav-background: #ffffff;
 $nav-font-color: #f8f8f8;
@@ -385,8 +385,8 @@ hr {
 #aboutme {
   width: 100%;
   position: relative;
-  background: url("../images/montage2.jpg");
-  background-position: center;
+  background: url("../images/montage.jpg");
+  background-position: left;
   height: 640px;
   padding-top: $nav-height;
   box-sizing: border-box;
@@ -460,6 +460,18 @@ hr {
 }
 
 @media only screen and (max-width: 480px) {
+  
+.educationItem{
+  width: 100% !important;
+  
+}
+
+  .brand {
+   
+    h3 {
+      font-size: 2rem;
+    }
+  }
   #showcase {
     h1 {
       font-size: 3rem;
@@ -484,7 +496,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1050px) {
   hr {
     width: 80%;
   }

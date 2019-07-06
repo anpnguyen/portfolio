@@ -304,8 +304,8 @@ hr {
 #aboutme {
   width: 100%;
   position: relative;
-  background: url("../images/montage2.jpg");
-  background-position: center;
+  background: url("../images/montage.jpg");
+  background-position: left;
   height: 640px;
   padding-top: 90px;
   box-sizing: border-box;
@@ -361,6 +361,12 @@ hr {
     max-height: 40px; }
 
 @media only screen and (max-width: 480px) {
+  .educationItem {
+    width: 100% !important; }
+
+  .brand h3 {
+    font-size: 2rem; }
+
   #showcase h1 {
     font-size: 3rem; }
 
@@ -373,7 +379,7 @@ hr {
       margin: 1rem; }
       #skillsItem .skillRow .skillItem img {
         max-width: 150px; } }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1050px) {
   hr {
     width: 80%; }
 
@@ -415,7 +421,7 @@ hr {
 
   .nav-dropdown {
     position: static; } }
-@media screen and (min-width: 851px) {
+@media screen and (min-width: 1051px) {
   .nav-list {
     display: block !important; } }
 #nav-toggle.nav-toggle-scroll span,
