@@ -123,8 +123,7 @@ hr {
         transition: all 0.4s; }
         .nav-list-container ul li a:hover,
         .nav-list-container ul li a:visited:hover {
-          color: #4ab57b;
-          transform: scale(1.05); }
+          color: #4ab57b; }
 
 .active {
   color: #4ab57b !important; }
