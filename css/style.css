@@ -156,6 +156,7 @@ hr {
   background: url("../images/a.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 'auto 100%';
   height: 100vh;
   padding-top: 90px;
   box-sizing: border-box; }
@@ -215,24 +216,29 @@ hr {
     padding-bottom: 1.5rem; }
 
 #kitchenCatalogue,
-#colorPickerApp {
+#colorPickerApp,
+#inspirationMontage {
   width: 100;
   background: white;
   padding-bottom: 2rem; }
   #kitchenCatalogue .container,
-  #colorPickerApp .container {
+  #colorPickerApp .container,
+  #inspirationMontage .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
   #kitchenCatalogue h3,
-  #colorPickerApp h3 {
+  #colorPickerApp h3,
+  #inspirationMontage h3 {
     padding: 2rem; }
   #kitchenCatalogue p,
-  #colorPickerApp p {
+  #colorPickerApp p,
+  #inspirationMontage p {
     margin: 1rem 0; }
   #kitchenCatalogue img,
-  #colorPickerApp img {
+  #colorPickerApp img,
+  #inspirationMontage img {
     width: 100%; }
 
 #skillsItem {
