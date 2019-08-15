@@ -156,7 +156,7 @@ hr {
   background: url("../images/a.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 'auto 100%';
+  background-size: cover;
   height: 100vh;
   padding-top: 90px;
   box-sizing: border-box; }
@@ -309,8 +309,8 @@ hr {
 #aboutme {
   width: 100%;
   position: relative;
-  background: url("../images/montage.jpg");
-  background-position: left;
+  background: url("../images/about.jpg");
+  background-position: center;
   height: 640px;
   padding-top: 90px;
   box-sizing: border-box;
