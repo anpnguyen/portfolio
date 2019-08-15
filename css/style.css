@@ -185,6 +185,11 @@ hr {
     font-weight: 400;
     font-family: "noto";
     font-style: italic; }
+  #showcase .showcaseContact i {
+    transform: scale(2);
+    margin: 0.5rem 1.5rem 0 1.5rem; }
+  #showcase .showcaseContact i:hover {
+    color: #a64632; }
 
 #portfolio,
 #skills,
@@ -354,16 +359,17 @@ hr {
     #contact .container .contactItem {
       width: 300px;
       display: flex;
-      align-items: flex-start; }
+      align-items: flex-start;
+      margin: 0.2rem 0; }
       #contact .container .contactItem a {
         padding-right: 2rem;
         padding-bottom: 1rem;
         margin: auto 0;
         transition: all 0.2s ease-in-out; }
-      #contact .container .contactItem a:hover {
-        color: #4ab57b; }
-  #contact img {
-    max-height: 40px; }
+    #contact .container .contactItem:hover {
+      color: #4ab57b; }
+  #contact i {
+    transform: scale(1.5); }
 
 @media only screen and (max-width: 480px) {
   .educationItem {
