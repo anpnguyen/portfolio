@@ -7,11 +7,7 @@ $("nav ul").click(function(){
 })
 
 
-$("ul.nav-list li").click(function(){
-  
-   
-  
-})
+
 
 $("#nav-toggle").click(function() {
   $("nav ul").slideToggle();
