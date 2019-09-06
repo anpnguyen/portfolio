@@ -1,9 +1,16 @@
 $("nav ul").click(function(){
   
-  if(window.innerWidth < 851){
+  if(window.innerWidth < 1050){
   $("nav ul").slideToggle();
   document.getElementById("nav-toggle").classList.remove("active");
   }
+})
+
+
+$("ul.nav-list li").click(function(){
+  
+   
+  
 })
 
 $("#nav-toggle").click(function() {
@@ -21,6 +28,8 @@ $("#main").click(function() {
   let nav = document.getElementById("nav-toggle");
   nav.classList.remove("active");
 });
+
+
 
 // scroll will add navigation-scroll class
 $(document).scroll(function() {
